@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+    <h1>Curriculum Vitae</h1>
+    <div class="image"><img src="IMG_7163.jpg" height="150px" width="150px" alt="add your image"></div>
+    
+    <h2 style="background-color: white; padding-left: 0%;">Sanjay M Uttangi </h2>
+    <p><strong>S/o Murugesh U.V </strong></p>
+    <p><b>Email:</b> sanjaymuttangi@gmail.com</p>
+    <p><b>Mobile:</b> +91 8618210070</p>
+    <p><b>Address:</b> TaralaBalu Badavne 2nd Main 2nd Cross TavreChettnalli,Shimoga-577205, Karnataka, India</p>
+
+    <h2>Objective</h2>
+    <p>To seek a bright career in a progressive organization where my skills and knowledge can contribute to the success of the company and my own professional growth.</p>
+
+    <h2>Educational Qualifications</h2>
+    <table class="table-container">
+        <thead>
+            <tr>
+                <th>Exam</th>
+                <th>University/Board</th>
+                <th>Year of Passing</th>
+                <th>Institution</th>
+                <th>Aggregate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>B.E</td>
+                <td>Visvesvaraya technological university</td>
+                <td>2024</td>
+                <td> Jawaharlal Nehru National College of Engineering</td>
+                <td>90%</td>
+            </tr>
+            <tr>
+                <td>PUC</td>
+                <td>Board of Technical Education</td>
+                <td>2022</td>
+                <td>PACE PU UM COLLEGE</td>
+                <td>87%</td>
+            </tr>
+            <tr>
+                <td>SSLC</td>
+                <td>CBSE</td>
+                <td>2019</td>
+                <td>NATIONAL PUBLIC SCHOOL</td>
+                <td>73%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Skills</h2>
+    <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Java, C , DSA, Python languages</li>
+            <li>Database Management: MySQL</li>
+            <li>Version Control: Git</li>
+             <li>Basic computer skills,</li>
+            <li>Leadership, Problem-solving, Active listening, Management</li>
+    </ul>
+    <h2>Strengths</h2>
+    <ul>
+        <li>Strong decision-making ability</li>
+        <li>Effective and efficient work ethic</li>
+        <li>Team player with strong collaboration abilities</li>
+        <li>Self-motivated and driven</li>
+        <li>Creative thinking and innovation</li>
+    </ul>
+
+    <h2>Languages Known</h2>
+    <ul>
+        <li>English</li>
+        <li>Kannada</li>
+    </ul>
+
+    <h2>Hobbies and Interests</h2>
+    <ul>
+        <li>Playing  Cricket</li>
+        <li>Playing Indoor games</li>
+        <li>Watching Movies </li>
+    </ul>
+
+    <h2>Personal Details</h2>
+    <div class="personal-details">
+        <p><strong>Name:</strong> Sanjay M Uttangi</p>
+        <p><strong>Father's Name:</strong> Murugesh U.V</p>
+        <p><strong>Mother's Name:</strong> Manjula S.R</p>
+        
+        <p><strong>Sex:</strong> male</p>
+        <p><strong>Nationality:</strong> Indian</p>
+    </div>
+
+    <h2>Declaration</h2>
+    <p>I hereby declare that the information provided above is true to the best of my knowledge and belief.</p>
+
+<br>
+
+    <p><strong>Date:</strong> 02-12-2024</p>
+        <p><strong>Place:</strong> Shimoga</p>
+    <div class="signature">
+        
+        <p><strong>Signature:</strong> (Sanjay M Uttangi)</p>
+    </div>
+</div>
+</body>
+</html>

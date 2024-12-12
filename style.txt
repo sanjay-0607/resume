@@ -1,0 +1,164 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header and Title Styling */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #444;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Image Styling */
+.image {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Section Headers Styling */
+h2 {
+    background-color: #f4f4f4;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: #333;
+    border-left: 5px solid #007BFF;
+}
+
+/* Table Styling for Education */
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-container th {
+    background-color: #f7f7f7;
+    font-weight: bold;
+}
+
+.table-container tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table-container tr:hover {
+    background-color: #e1e1e1;
+}
+
+/* List Styling */
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+/* Personal Details Styling */
+.personal-details p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+/* Signature Section */
+.signature {
+    text-align: right;
+    margin-top: 30px;
+    font-size: 1.1rem;
+}
+
+.signature p {
+    font-weight: bold;
+    color: #444;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Hover Effects for Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 20px;
+        width: 100%;
+    }
+
+    .image {
+        position: relative;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .table-container th, .table-container td {
+        font-size: 0.9rem;
+    }
+}
